@@ -1,0 +1,81 @@
+.container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 80vh;
+  margin-top: 10vh;
+  /* Adjust the distance from the top as needed */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  /* Adjust the maximum width as needed */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style for the input field */
+#input {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+/* Style for the adjacent button */
+#input+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#input+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the result paragraph */
+#result {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style for the temp paragraph */
+#temp {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Style for the name paragraph */
+#name {
+
+  /* font-size: 2.5rem;
+  color: #888;
+  font-style: italic;
+} */
+  #windspeed {
+    font-size: 2rem;
+    color: black;
+
+  }
+
+  #max {
+    font-size: 2.3rem;
+    color: grey;
+    font-weight: lighter;
+  }
